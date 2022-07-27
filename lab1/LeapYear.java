@@ -3,7 +3,8 @@
  */
 public class LeapYear {
     /** If remainder from year mod 400 is zero, then it's a leap year. Or if year mod 4 equals zero AND year mod 100 does not
-    equal 0 meaning it can't divide by 100, then it's a leap. */
+    * equal 0 meaning it can't divide by 100, then it's a leap year. 
+    */
     public static boolean isLeapYear(int year) {
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
             return true;
